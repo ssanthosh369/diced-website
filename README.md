@@ -1,5 +1,5 @@
 # diced-website
-A responsive dynamic website for a fictional board game club made using html, css, php and an sqal database for the backend using WAMP
+A responsive dynamic website for a fictional board game club made using html, css, php and an sql database for the backend.
 
 Database created and used with the help of wamp server and phpMyAdmin:-
 
@@ -13,4 +13,4 @@ Setup Instructions:-
 	Login using username: root and password: none, server choice: sql.
 	Create a database called diceddb. 
 	Now click on import and import the diceddb.sql file included. 
-	This will import all tables and data which our website works with.
+	This will import all tables and data which the website works with.
