@@ -1,0 +1,293 @@
+/* Personal stylesheet for the website - Santhosh Shanmugam 2976813*/
+
+/* setting body element's css */
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+  background: #333;
+  color: #fff;
+  line-height: 1.8em;
+}
+
+/* assigning dancing script google font to all headings */
+h1,h2,h3,h4,h5 {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+/* using css to add a parallax effect to the images */
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* assinging appropriate image urls for the images and changing their minimum heights */
+.pimg1 {
+  background-image: url("../images/monopoly.jpg");
+  min-height: 100vh;
+
+}
+
+.pimg2 {
+  background-image: url("../images/party.jpg");
+  min-height: 25em;
+}
+
+.pimg3 {
+  background-image: url("../images/cube.jpg");
+  min-height: 20em;
+}
+
+/* css for the dark sections in the home page */
+.section-dark {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: #282e34;
+  color: #ddd;
+}
+
+/* css for the text on the main image in the home page */
+.transparent {
+  background-color: transparent;
+  color: whitesmoke;
+  line-height:2em;
+}
+
+/* styling the text in the homepage */
+.ptext {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 1.5em;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+
+/* styling the background of the login,register and account details page */
+.member {
+  background-image:url("../images/d.jpg");
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* styling the contact us page  */
+.contacts {
+  background-image: url("../images/pawns.jpg");
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 95vh;
+  padding-top: 3.5em;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+  4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+/* setting the width of the input labels in the contact form */
+#question {
+  width: 20em;
+}
+
+
+/* styling the elements in the events page */
+.event {
+  background-image: url("../images/c.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* styling the contents being displayed as table */
+.event table {
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+
+}
+
+/* styling the headings of events page */
+.event h1 {
+  color: white;
+  margin-bottom: 1em;
+  font-weight:1000;
+}
+
+/* adding a text-shadow effect to make the text pop and more readable */
+.anim {
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+  4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+  color: white;;
+}
+
+
+/* styling the  my account details part of the page */
+.index {
+  border: 5px solid wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5em auto 5em;
+  max-width: 25em;
+  padding: 1em;
+  height: 80vh;
+  
+  background: linear-gradient(35deg, #ccffff, #ffcccc); 
+  color: black;
+  opacity: 0.7;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.userinfo {
+  padding: 1em;
+  margin: 1em auto;
+}
+
+
+/* styling the header of the login and registration forms */
+.headerx {
+  max-width: 30em;
+  margin: 50px auto 0px;
+  color: white;
+  background: #2e417d;
+  text-align: center;
+  border: 1px solid #b0c4de;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+.container2 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  height: 120vh;
+}
+
+/* styling the login and registration forms and its labels and other content */
+.details,
+.content {
+  max-width: 30em;
+  max-height: 80vh;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #b0c4de;
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+  color: black;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 1px 0px 1px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+/* styling the box that displays errors in the login and registration forms */
+.error {
+  width: 25em;
+  height: 3rem;
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+  line-height: 0.5rem;
+  justify-content: center;
+}
+
+/* assigning a min height to the desc class */
+.desc {
+  min-height: 100vh;
+}
+
+
+/* changing social media icon colour and size in the footer */
+footer .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+/* adding a hover effect for the footer icons */
+footer .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+/* media query to make the text on main image in home responsive */
+@media (min-width:655px) and (max-width: 2000px) {
+
+  .transparent {
+    height:80vh;
+    line-height:1.2em;
+  }
+
+  /* hide the heading untill width goes below 655px */
+  .transparent h3{
+    display: none;
+  }
+
+  .transparent p {
+    font-size: 1rem;
+    
+  }
+
+}
+
+@media (max-width: 655px) {
+  /* remove parallax effect from the images in home page */
+  .pimg1,
+  .pimg2,
+  .pimg3 {  
+    background-attachment: scroll;
+  }
+
+
+  /* remove the paragraph in the main image in the home page when the width goes below 655px */
+  .transparent p{
+    display: none;
+
+  }
+
+
+}
